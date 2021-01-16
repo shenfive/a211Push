@@ -30,6 +30,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate, UNUser
         print("Get Token:\(fcmToken)")
         
     }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("User Info:\(userInfo)")
+    }
+    
+    
+    
 
     // MARK: UISceneSession Lifecycle
 

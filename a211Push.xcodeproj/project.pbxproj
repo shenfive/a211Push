@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		15E417434273CA8794249237 /* Pods-a211Push.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a211Push.debug.xcconfig"; path = "Target Support Files/Pods-a211Push/Pods-a211Push.debug.xcconfig"; sourceTree = "<group>"; };
 		3B5B22F025B27C8100F0A7D6 /* push.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = push.pdf; sourceTree = "<group>"; };
+		3B5B22F325B27F1300F0A7D6 /* a211Push.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = a211Push.entitlements; sourceTree = "<group>"; };
 		3B6CDFD725A9A40500EF83A3 /* a211Push.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a211Push.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6CDFDA25A9A40500EF83A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B6CDFDC25A9A40500EF83A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		3B6CDFD925A9A40500EF83A3 /* a211Push */ = {
 			isa = PBXGroup;
 			children = (
+				3B5B22F325B27F1300F0A7D6 /* a211Push.entitlements */,
 				3BDF5B8C25A9AB2A00096AEC /* GoogleService-Info.plist */,
 				3B5B22F025B27C8100F0A7D6 /* push.pdf */,
 				3B6CDFDA25A9A40500EF83A3 /* AppDelegate.swift */,
@@ -363,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = a211Push/a211Push.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSVW22JPST;
 				INFOPLIST_FILE = a211Push/Info.plist;
@@ -383,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = a211Push/a211Push.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSVW22JPST;
 				INFOPLIST_FILE = a211Push/Info.plist;
